@@ -1,9 +1,12 @@
 import React, { useState } from 'react';
 import { StyleSheet, Text, View, Button, TextInput } from 'react-native';
+//import axios from 'axios'
 
 export default function PhoneNumber(props) {
   const [phoneNumber, setPhoneNumber] = useState(null);
-
+//   async function login(){
+//     const data = await axios.post('/backend/login',phoneNumber)
+//   }
   return (
     <View style={styles.screen}>
       <Text style={styles.text}>Enter Phone Number</Text>
